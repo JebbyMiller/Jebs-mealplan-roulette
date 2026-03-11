@@ -1,0 +1,25 @@
+.attribution-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.attribution-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution-item {
+  background: rgba(26, 1, 26, 0.85);
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  line-height: 1.6;
+}
+
+.attribution-item a {
+  color: #4a6cf7;
+  font-weight: 600;
+}

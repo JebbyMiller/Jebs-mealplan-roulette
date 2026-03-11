@@ -1,0 +1,26 @@
+.app-bg {
+  width: 100%;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 2rem;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.app-screen {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  max-height: 844px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}

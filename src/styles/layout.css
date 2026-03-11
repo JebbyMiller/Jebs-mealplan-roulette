@@ -1,0 +1,29 @@
+.app-bg {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.app-screen {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 2rem;
+  height: auto;
+  min-height: 100%;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+
+.private-layout-inner {
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  overflow: visible;
+  display: block;
+}

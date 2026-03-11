@@ -1,0 +1,31 @@
+.dashboard-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 4rem auto;
+}
+
+.menu-button {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  background: #4a6cf7;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.menu-button:hover {
+  background: #3a57d0;
+}
+
+.signout {
+  background: #d9534f;
+}
+
+.signout:hover {
+  background: #c64541;
+}

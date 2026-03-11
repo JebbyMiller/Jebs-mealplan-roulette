@@ -1,0 +1,80 @@
+.roulette-container {
+  max-width: 430px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.roulette-wheel {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.roulette-wheel img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.roulette-wheel.spinning img {
+  transform: rotate(1440deg);
+}
+
+.spin-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.roulette-warning {
+  background: #ffdddd;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.roulette-title {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.roulette-result h2 {
+  font-size: 1.3rem;
+}
+
+.roulette-result p {
+  font-size: 1rem;
+}
+
+.spin-button {
+  margin-top: 16px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.85);
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  z-index: 9999;
+  animation: fadeInOut 3s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-50%) translateY(10px); }
+}

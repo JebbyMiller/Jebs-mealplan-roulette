@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "jeb-s-mealplan-roulette-c9a7e",
     "public": "dist",
     "ignore": [
       "firebase.json",
